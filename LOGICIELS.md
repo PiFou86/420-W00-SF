@@ -28,7 +28,7 @@ winget install Microsoft.DotNet.SDK.8 -e
 winget install Microsoft.VisualStudioCode -e
 winget install Microsoft.VisualStudio.2022.Community -e
 ```
-Une fois l'installation de Visual Studio 2022 démarrée, rendez-vous à [cette section du tutoriel](#details-installation-vs).
+Une fois l'installation de Visual Studio 2022 lancée, rendez-vous à [cette section du tutoriel](#details-installation-vs).
 
 ## Exercice 1 - Installation de Git
 
@@ -60,14 +60,14 @@ Une fois l'installation de Visual Studio 2022 démarrée, rendez-vous à [cette 
 
 ![Validation installation Node.js](img/node_installation_validation.png)
 
-## Exercice 3 - Installation de Dotnet 6.0
+## Exercice 3 - Installation de Dotnet 8.0
 
 - Naviguez le site [https://dotnet.microsoft.com](https://dotnet.microsoft.com)
 - Cliquez sur le bouton "Download"
 
 ![Site dotnet](img/dotnet_site_01.png)
 
-- Repérez la version "Long Term Support" 6.0
+- Repérez la version "Long Term Support" 8.0
 - Choisissez le lien ".NET SDK x64"
 
 ![Choix de la version de l'installateur](img/dotnet_site_02.PNG)
@@ -76,7 +76,7 @@ Une fois l'installation de Visual Studio 2022 démarrée, rendez-vous à [cette 
 - Suivez les instructions et optez pour les valeurs par défaut
 - Une fois l'installation terminée, [Ouvrez un invite de commande](LIGNE_COMMANDE.md) et validez qu'en tapant ```dotnet --version``` vous obtenez la version de dotnet installée (la version peut varier) :
 
-![Validation installation dotnet 6.0](img/dotnet_installation_validation.png)
+![Validation installation dotnet 8.0](img/dotnet_installation_validation.png)
 
 ## Exercice 4 - Installation de Visual Studio Code
 
@@ -93,8 +93,8 @@ Une fois l'installation de Visual Studio 2022 démarrée, rendez-vous à [cette 
 
 ## Exercice 5 - Installation de Visual Studio 2022
 
-- Naviguez le site [https://visualstudio.microsoft.com](https://visualstudio.microsoft.com)
-- Cherchez le bouton "Télécharger Visual Studio" et choisissez l'option "Community 2022".
+- Naviguez le site [https://visualstudio.microsoft.com/fr/downloads/](https://visualstudio.microsoft.com/fr/downloads/)
+- Cherchez la colonne "Communauté" et cliquez sur le bouton "Téléchargement gratuit".
 
 ![Site Visual Studio](img/vs_site_01.png)
 

@@ -23,7 +23,7 @@ Nous supposons ici que votre machine personnelle est/a :
 Windows est désormais distribué avec le gestionnaire de packages "Winget". Cet outil permet de rechercher, installer et mettre à jour les logiciels sur votre ordinateur. [Ouvrez un invite de commande](LIGNE_COMMANDE.md) et collez ces lignes :
 ```bash
 winget install Git.Git -e
-winget install OpenJS.NodeJS -e
+winget install OpenJS.NodeJS.LTS -e
 winget install Microsoft.DotNet.SDK.8 -e
 winget install Microsoft.VisualStudioCode -e
 winget install Microsoft.VisualStudio.2022.Community -e

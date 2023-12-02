@@ -6,16 +6,29 @@ L'objectif de cette partie est d'installer les outils suivants sur votre machine
 
 - Git
 - Node.js
-- Dotnet 6.0
+- Dotnet 8.0
 - Visual Studio Code
 - Visual Studio 2022
 
 Nous supposons ici que votre machine personnelle est/a :
 
-- Un PC tournant sous Windows 10
-- Un minimum de 8Go de mémoire vive
+- Un PC tournant sous Windows 10 ou Windows 11
+- Un minimum de 16Go de mémoire vive
 - Un minimum de 40Go d'espace disque libre
 - Les outils ne sont pas pré-installés
+
+## Winget - Installation rapide
+**Si vous désirez installer les logiciels à l'aide des installateurs conventionnels, ignorez ce chapitre.**
+
+Windows est désormais distribué avec le gestionnaire de packages "Winget". Cet outil permet de rechercher, installer et mettre à jour les logiciels sur votre ordinateur. [Ouvrez un invite de commande](LIGNE_COMMANDE.md) et collez ces lignes :
+```bash
+winget install Git.Git -e
+winget install OpenJS.NodeJS -e
+winget install Microsoft.DotNet.SDK.8 -e
+winget install Microsoft.VisualStudioCode -e
+winget install Microsoft.VisualStudio.2022.Community -e
+```
+Une fois l'installation de Visual Studio 2022 démarrée, rendez-vous à [cette section du tutoriel](#details-installation-vs).
 
 ## Exercice 1 - Installation de Git
 
@@ -87,10 +100,12 @@ Nous supposons ici que votre machine personnelle est/a :
 
 - Lancez le programme d'installation que vous venez de télécharger.
 - Suivez les instructions jusqu'à arriver à la fenêtre des "Détails de l'installation"
-- Dans cette fenêtre, cochez les options suivantes :
-  - Développement web et ASP.NET
-  - Développement Node.js
-  - Développement .NET Desktop
+
+### <a name="details-installation-vs">Détails de l'installation</a>
+Dans cette fenêtre, cochez les options suivantes :
+- Développement web et ASP.NET
+- Développement Node.js
+- Développement .NET Desktop
 
 ![Choix des modules à installer](img/vs_installation_choix_modules.png)
 

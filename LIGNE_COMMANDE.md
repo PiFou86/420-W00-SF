@@ -1,12 +1,15 @@
 # Ouverture d'une ligne de commande
-
-- Faites un clic droit sur le menu "Windows" et choisissez "Exécuter" ou appuyez sur la combinaison de touches "[Win] + R"
+Faites un clic droit sur le menu _"Démarrer"_ et choisissez _"Exécuter"_. Vous pouvez aussi faire le raccourci ```[Win]``` + ```r```
 
 ![Lancer le programme exécuter](img/cmd_menu_executer.png)
 
-- Entrez ```cmd``` à droite du label "Ouvrir :"
+Entrez ```cmd``` à droite du label _"Ouvrir :"_
 
 ![Lancer une invite de commande](img/cmd_menu_executer_commande.png)
+
+Vous pouvez aussi accéder à l'invite de commandes depuis la zone de recherche
+
+![Ouvrir une invite de commande](img/cmd_zone_recherche.png)
 
 Vous avez maintenant une fenêtre de commande ouverte !
 

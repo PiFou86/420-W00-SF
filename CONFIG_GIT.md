@@ -9,7 +9,8 @@ Les objectifs de cette étape sont :
 
 ## Exercice 1 - Création de votre compte GitHub
 
-**Si vous avez déjà un compte sur le site GitHub, vous pouvez sauter cet exercice.**
+> [!IMPORTANT]
+> **Si vous avez déjà un compte sur le site GitHub, vous pouvez sauter cet exercice.**
 
 - Ouvrez un nouvel onglet dans votre navigateur
 - Allez sur l'adresse [https://www.github.com](https://www.github.com)
@@ -50,6 +51,9 @@ git config --global user.email "pfleon@unfauxdomaine.com"
 git config --global core.editor "code --wait"
 ```
 
-- Validez que vous avez bien configuré votre client git avec la commande ```git config --list```. Si les informations sont incorrectes, vous devrez les corriger en retapant les commandes précédentes.
+- Validez que vous avez bien configuré votre client git avec la commande `git config --list`.
+
+> [!WARNING]
+> Si les informations sont incorrectes, vous devrez les corriger en retapant les commandes précédentes.
 
 ![Validation de la configuration](img/vm_configuration_git.png)

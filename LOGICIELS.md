@@ -29,7 +29,7 @@ Ouvrez un [invite de commande](LIGNE_COMMANDE.md) **en mode administrateur** et 
 ```bash
 winget install Git.Git OpenJS.NodeJS.LTS Microsoft.DotNet.SDK.8 Microsoft.VisualStudioCode Microsoft.VisualStudio.2022.Community DevToys-app.DevToys --accept-package-agreements --accept-source-agreements
 ```
-Une fois l'installation de Visual Studio 2022 lancée, rendez-vous à [cette section du tutoriel](#details-installation-vs).
+Une fois l'installation de Visual Studio 2022 lancée, rendez-vous aux [détails de l'installation](#details-installation-vs) de l'exercice 5.
 
 ## Exercice 1 - Installation de Git
 
@@ -113,7 +113,7 @@ Dans cette fenêtre, cochez les options suivantes :
 > [!NOTE]
 > L'installation peut prendre plusieurs dizaines de minutes dépendant de votre configuration matérielle et réseau !
 
-## Exercice 6 - Installation de DevToys
+## Exercice 6 - Installation de DevToys (Optionnel)
 
 <details>
   <summary><b>Qu'est-ce que DevToys ?</b></summary>

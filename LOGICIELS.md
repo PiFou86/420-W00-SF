@@ -6,9 +6,10 @@ L'objectif de cette partie est d'installer les outils suivants sur votre machine
 
 - Git
 - Node.js
-- Dotnet 8.0
+- Dotnet 10.0
 - Visual Studio Code
-- Visual Studio 2022
+- Visual Studio 2026
+- Docker
 - DevToys
 
 Nous supposons ici que votre machine personnelle est/a :
@@ -19,13 +20,25 @@ Nous supposons ici que votre machine personnelle est/a :
 - Les outils ne sont pas pré-installés
 
 ## Winget - Installation rapide
-**Si vous désirez installer les logiciels à l'aide des installateurs conventionnels, ignorez ce chapitre.**
+**On va passer par ici, ce sera plus rapide !**
 
-Windows est désormais distribué avec le gestionnaire de packages [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/#use-winget). Cet outil permet de [rechercher, installer et mettre à jour](https://learn.microsoft.com/en-us/windows/package-manager/winget/#commands) les logiciels sur votre ordinateur. [Ouvrez un invite de commande](LIGNE_COMMANDE.md) et collez cette ligne :
+Windows est désormais distribué avec le gestionnaire de packages [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/#use-winget). Cet outil permet de [rechercher, installer et mettre à jour](https://learn.microsoft.com/en-us/windows/package-manager/winget/#commands) les logiciels sur votre ordinateur. [Ouvrez un invite de commande](LIGNE_COMMANDE.md) et collez ces lignes :
+
+Installation de NodeJS (Web), .Net 10, VS Code, DevToys et Docker :
+
 ```bash
-winget install Git.Git OpenJS.NodeJS.LTS Microsoft.DotNet.SDK.8 Microsoft.VisualStudioCode Microsoft.VisualStudio.2022.Community DevToys-app.DevToys
+winget install OpenJS.NodeJS.LTS Microsoft.DotNet.SDK.10 Microsoft.VisualStudioCode DevToys-app.DevToys Docker.DockerDesktop  --accept-source-agreements
 ```
-Une fois l'installation de Visual Studio 2022 lancée, rendez-vous à [cette section du tutoriel](#details-installation-vs).
+
+Installation de Visual Studio 2026 :
+
+```bash
+winget install --id Microsoft.VisualStudio.Community --override "--passive --wait --add Microsoft.VisualStudio.Component.ManagedDesktop.Core --add Microsoft.VisualStudio.Component.EntityFramework --add Microsoft.VisualStudio.Component.Web --add Microsoft.VisualStudio.ComponentGroup.Web --add Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions --add Microsoft.NetCore.Component.Web --add Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeRecommended" --accept-source-agreements
+```
+
+Une fois l'installation de Visual Studio 2026 lancée, rendez-vous à [cette section du tutoriel](#details-installation-vs).
+
+On va valider si vous écoutez bien et que vous lisez bien : rendez-vous sur cette page [ReadMe.md ](README.md). Ne faites pas la suite !
 
 ## Exercice 1 - Installation de Git
 

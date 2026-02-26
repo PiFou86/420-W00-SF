@@ -1,3 +1,6 @@
 ```
 winget install --id Microsoft.VisualStudio.Community --override "--passive --wait --add Microsoft.VisualStudio.Component.ManagedDesktop.Core --add Microsoft.VisualStudio.Component.EntityFramework --add Microsoft.VisualStudio.Component.Web --add Microsoft.VisualStudio.ComponentGroup.Web --add Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions --add Microsoft.NetCore.Component.Web --add Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeRecommended" --accept-source-agreements
 ```
+
+
+https://github.com/PiFou86/040-000-03-PremierCodeCSharp/tree/main

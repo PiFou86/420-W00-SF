@@ -27,7 +27,7 @@ Windows est désormais distribué avec le gestionnaire de packages [Winget](http
 Installation de NodeJS (Web), .Net 10, VS Code, DevToys et Docker :
 
 ```bash
-winget install OpenJS.NodeJS.LTS Microsoft.DotNet.SDK.10 Microsoft.VisualStudioCode DevToys-app.DevToys Docker.DockerDesktop  --accept-source-agreements
+winget install Git.Git OpenJS.NodeJS.LTS Microsoft.DotNet.SDK.10 Microsoft.VisualStudioCode DevToys-app.DevToys Docker.DockerDesktop  --accept-source-agreements
 ```
 
 Installation de Visual Studio 2026 :

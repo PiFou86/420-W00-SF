@@ -36,6 +36,20 @@ Installation de Visual Studio 2026 :
 winget install --id Microsoft.VisualStudio.Community --override "--passive --wait --add Microsoft.VisualStudio.Component.ManagedDesktop.Core --add Microsoft.VisualStudio.Component.EntityFramework --add Microsoft.VisualStudio.Component.Web --add Microsoft.VisualStudio.ComponentGroup.Web --add Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions --add Microsoft.NetCore.Component.Web --add Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeRecommended" --accept-source-agreements
 ```
 
+Activation Docker (Une ligne à la fois):
+
+```bash
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
+
+# reboot 
+
+wsl --install -d Ubuntu --no-launch
+wsl -u root -d Ubuntu sh -c "useradd -m -G sudo -s /bin/bash %USERNAME% && echo '%USERNAME% ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/%USERNAME%"
+wsl --manage Ubuntu --set-default-user %USERNAME%
+wsl --set-default-version 2
+```
+
 Une fois l'installation de Visual Studio 2026 lancée, rendez-vous à [cette section du tutoriel](#details-installation-vs).
 
 On va valider si vous écoutez bien et que vous lisez bien : rendez-vous sur cette page [ReadMe.md ](README.md). Ne faites pas la suite !
